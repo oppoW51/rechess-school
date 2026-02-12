@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TG_CHANNEL = "https://t.me/rechess_channel";
+const TG_CHANNEL = "https://t.me/rechess_school";
 const TG_CONTACT = "https://t.me/evgeny_rechess";
 
 const Footer: React.FC = () => {
@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="mb-6">
               <img 
-                src="/logo.png" 
+                src="/logo.svg" 
                 alt="Logo" 
                 className="h-10 w-auto opacity-80"
               />

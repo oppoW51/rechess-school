@@ -3,7 +3,7 @@ import Button from './Button';
 
 // Global Constants
 const YANDEX_FORM_LINK = "https://forms.yandex.ru/"; 
-const TG_CHANNEL = "https://t.me/rechess_channel"; 
+const TG_CHANNEL = "https://t.me/rechess_school"; 
 const TG_CONTACT = "https://t.me/evgeny_rechess"; 
 
 const Header: React.FC = () => {
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
         {/* Logo */}
         <a href="#" className="flex items-center gap-3 group transition-opacity hover:opacity-90">
           <img 
-            src="/logo.png" 
+            src="/logo.svg" 
             alt="Rechess Logo" 
             className="h-12 w-auto"
           />

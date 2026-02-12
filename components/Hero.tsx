@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './Button';
 
 const YANDEX_FORM_LINK = "https://forms.yandex.ru/";
-const TG_CHANNEL = "https://t.me/rechess_channel";
+const TG_CHANNEL = "https://t.me/rechess_school";
 
 const Hero: React.FC = () => {
   return (
