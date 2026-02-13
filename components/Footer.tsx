@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
             <div className="flex flex-col gap-4">
               <a href="mailto:info@rechess.ru" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors">
                 <i className="fa-solid fa-envelope text-lg w-6 text-center"></i>
-                <span className="text-sm">info@rechess.ru</span>
+                <span className="text-sm">rechess@yandex.ru</span>
               </a>
             </div>
           </div>
@@ -55,8 +55,23 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-600">
           <p>&copy; {new Date().getFullYear()} Rechess School. Все права защищены.</p>
           <div className="flex gap-6">
-            <a href="/" className="hover:text-gray-400 transition-colors">Политика конфиденциальности</a>
-            <a href="/" className="hover:text-gray-400 transition-colors">Оферта</a>
+            <a 
+              href="/politika.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-gray-400 transition-colors"
+            >
+              Политика конфиденциальности
+            </a>
+
+            <a 
+              href="/oferta.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-gray-400 transition-colors"
+            >
+              Оферта
+            </a>
           </div>
         </div>
       </div>
